@@ -1,0 +1,15 @@
+Algoritmo Ejercicio_14
+	definir cant_focos, focos_rojos, focos_blancos, focos_verdes como real 
+	
+	Escribir "Ingrese cantidad de fotos"
+	leer cant_focos
+	
+	focos_rojos = cant_focos * 0.50
+	focos_blancos = cant_focos * 0.25
+	focos_verdes = cant_focos * 0.25
+	
+	Escribir "la cantida de focos rojos es: ", focos_rojos
+	Escribir "la cantida de focos blancos es: ",focos_blancos
+	Escribir "la cantida de focos verdes es: ",focos_verdes
+	
+FinAlgoritmo

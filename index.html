@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="./index.js"></script>
+    <!--Suma de 2  numeros -->
+    <fieldset>
+      <legend>Ingrese dos numeros</legend>
+      <label for="">Numero 1:</label>
+      <input type="text" id="txtN1" />
+      <br /><br />
+      <label for="">Numero 2:</label>
+      <input type="text" id="txtN2" />
+      <br /><br />
+      <input type="button" onclick="Sumar();" value="Calcular" />
+    </fieldset>
+    <!--Calcular promedio-->
+    <fieldset>
+      <legend>Ingrese 4 Notas</legend>
+      <label for="">Nota 1:</label>
+      <input type="text" id="not1" />
+      <br /><br />
+      <label for="">Nta 2:</label>
+      <input type="text" id="not2" />
+      <br /><br />
+      <label for="">Nota 3:</label>
+      <input type="text" id="not3" />
+      <br /><br />
+      <label for="">Nta 4:</label>
+      <input type="text" id="not4" />
+      <br /><br />
+      <input type="button" onclick="Promedio();" value="Calcular promedio" />
+    </fieldset>
+    <!--Calcular el área de un rectángulo-->
+    <fieldset>
+      <legend>Ingrese datos del rectángulo</legend>
+      <label for="">Ingrese base del rectángulo:</label>
+      <input type="text" id="base" />
+      <br /><br />
+      <label for="">ingrese altura del rectángulo:</label>
+      <input type="text" id="altura" />
+      <br /><br />
+      <input
+        type="button"
+        onclick="areaRectangulo();"
+        value="Calcular el área de un rectángulo"
+      />
+    </fieldset>
+
+    <!--Calcular el área de un triangulo-->
+    <fieldset>
+      <legend>Ingrese datos del triangulo</legend>
+      <label for="">Ingrese base del triangulo:</label>
+      <input type="text" id="base_tri" />
+      <br /><br />
+      <label for="">ingrese altura del triangulo:</label>
+      <input type="text" id="altura_tri" />
+      <br /><br />
+      <input
+        type="button"
+        onclick="areaTriangulo();"
+        value="Calcular el área de un triangulo"
+      />
+    </fieldset>
+
+    <!--Calcular el radio del circulo-->
+    <fieldset>
+        <legend>Ingrese datos del circulo</legend>
+        <label for="">Ingrese radio del circulo:</label>
+        <input type="text" id="radio_cir" />
+        <br /><br />        
+        <input
+          type="button"
+          onclick="areaCirculo();"
+          value="Calcular el área de un circulo"
+        />
+      </fieldset>
+     <!--Calcular sueldo--->
+      <fieldset>
+        <legend>Ingrese del Trabajador</legend>
+        <label for="">Ingrese tu pago por hora:</label>
+        <input type="text" id="pagohora" />
+        <br /><br />  
+        <label for="">Ingrese las horas trabajadas:</label>
+        <input type="text" id="horas" />
+        <br /><br />      
+        <input
+          type="button"
+          onclick="calcularSueldo();"
+          value="Calcular Sueldo"
+        />
+      </fieldset>
+      <!--Conversor de metros a pulgadas-->
+      <fieldset>
+        <legend>Conversor de metros a pulgadas</legend>
+        <label for="">Ingreses los metros que deseas convertir a pulgadas</label>
+        <input type="text" id="metros" />
+        <br /><br />  
+      
+        <input
+          type="button"
+          onclick="convertirMetroPulgada();"
+          value="Convertir de metros a pulgadas"
+        />
+      </fieldset>
+      <!--Calcular tipo de cambio-->
+      <fieldset>
+        <legend>Calcular tipo de cambio</legend>
+        <label for="">Ingrese la cantidad de dinero en soles:</label>
+        <input type="text" id="soles_do" />
+        <br /><br />     
+        <input
+          type="button"
+          onclick="convertirSoleDolares();"
+          value="Convertir soles a Dolares"
+        />
+      </fieldset>
+      <!--Caluclar edad por año de nacimiento-->
+      <fieldset>
+        <legend>Calcular Edad por año de nacimiento</legend>
+        <label for="">Ingrese su año de nacimiento. ejem. 1995:</label>
+        <input type="text" id="date_nac" />
+        <br /><br />     
+        <input
+          type="button"
+          onclick="calcularEdad();"
+          value="Calcular Edad"
+        />
+      </fieldset>
+      <!--Calcular edada menor -->
+      <fieldset>          
+        <legend>Ingrese datos del usuario </legend>
+        <fieldset>
+            <legend>Ingrese datos del usuario 1</legend>
+            <label for="">Ingrese su edad</label>
+            <input type="text" id="num1" />
+            <br><br>
+            <label for="">Ingrese su nombre</label>
+            <input type="text" id="name1" />
+        </fieldset>
+        <fieldset>
+            <legend>Ingrese datos del usuario 2</legend>
+            <label for="">Ingrese su edad</label>
+            <input type="text" id="num2" />
+            <br><br>
+            <label for="">Ingrese su nombre</label>
+            <input type="text" id="name2" />
+        </fieldset>
+        <fieldset>
+            <legend>Ingrese datos del usuario 3</legend>
+            <label for="">Ingrese su edad</label>
+            <input type="text" id="num3" />
+            <br><br>
+            <label for="">Ingrese su nombre</label>
+            <input type="text" id="name3" />
+        </fieldset>     
+        <input
+          type="button"
+          onclick="calcularMenor();"
+          value="Calcular edad Menor"
+        />
+      </fieldset>
+
+      <!--Calcular bono -->
+      <fieldset>
+        <legend>Calcular Bono por tiempo de trabajo</legend>
+        <label for="">Ingrese año de antiguedad:</label>
+        <input type="text" id="anti_trab" />
+        <br /><br />     
+        <input
+          type="button"
+          onclick="calcularBono();"
+          value="Calcular Bono"
+        />
+      </fieldset>
+    </body>
+</html>

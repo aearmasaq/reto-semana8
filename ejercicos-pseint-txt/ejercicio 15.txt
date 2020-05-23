@@ -1,0 +1,20 @@
+Algoritmo ejercicio_15
+	definir date_nac, edad como real
+	definir auto_vot como caracter
+	
+	Escribir "Ïngrese su fecha de nacimiento ejem:1996 "
+	leer date_nac
+	
+	//proxima elecciones 2021
+	edad =  2021 -  date_nac
+	
+	si (edad >= 18) entonces 
+		auto_vot = "puede votar es mayor de edad"
+	FinSi
+	
+	si (edad < 18 ) entonces 
+		auto_vot = "no puede votar es menor de edad"
+	FinSi
+	
+	Escribir  "Usted tiene: ", edad "años y ", auto_vot
+FinAlgoritmo

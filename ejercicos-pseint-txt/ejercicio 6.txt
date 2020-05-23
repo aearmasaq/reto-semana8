@@ -1,0 +1,15 @@
+Algoritmo ejercicio_6
+	
+	Definir  horas Como Entero
+	definir pagohora, pagoTotal Como Real
+	
+	Escribir "Ingrese tu pago por hora:"
+	leer pagohora
+	Escribir "Dame las horas trabajadas:"
+	Leer horas
+	
+	pagoTotal= pagohora * horas
+	
+	Escribir "Tu sueldo por ", horas, " trabajadas es de S/", pagoTotal
+	
+FinAlgoritmo

@@ -1,0 +1,10 @@
+Algoritmo ejercicio_9
+	Definir date_nac, edad como real 
+	
+	Escribir "Ingrese su año de nacimiento. ejem. 1995"
+	leer date_nac
+	
+	edad = 2020 -date_nac  
+	 Escribir "La edad del postulate es de: ", edad, " años"
+	
+FinAlgoritmo

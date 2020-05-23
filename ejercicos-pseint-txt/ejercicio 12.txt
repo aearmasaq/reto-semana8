@@ -1,0 +1,21 @@
+Algoritmo ejercicio_12
+	
+	definir sueldo Como Real
+	definir x, date_trab como entero
+	
+	Escribir  "Ingrese tu salario"
+	leer sueldo
+	Escribir "A cuantos  años deseas ralizar el calculo"
+	leer date_trab
+	
+	x=1
+	
+	Mientras x<= date_trab Hacer
+		sueldo = sueldo+(sueldo*0.10)
+		Escribir "El salario en el año ",x, " es de: ", sueldo
+		x=x+1
+	Fin Mientras
+	
+	
+FinAlgoritmo
+

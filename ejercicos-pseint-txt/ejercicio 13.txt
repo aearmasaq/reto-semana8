@@ -1,0 +1,31 @@
+Algoritmo ejercicio_13
+	Definir i, aprobadas, reprobadas, notas Como Entero
+    Definir sumaa, sumab, nota Como Real
+	
+    Escribir "Ingrese la cantidad de notas";
+    Leer notas;
+    
+    i<-1;
+    aprobadas<-0;
+    reprobadas<-0;
+    sumaa<-0;
+    sumab<-0;
+    Escribir "Ingrese las ", notas, " notas";
+    Mientras i<=notas Hacer
+        Leer nota;
+		
+        Si nota>=11 Entonces
+            sumaa<-sumaa+nota;
+            aprobadas<-aprobadas+1;
+        Sino
+            sumab<-sumab+nota;
+            reprobadas<-reprobadas+1;
+        Fin Si
+		
+        i<-i+1;
+    Fin Mientras	
+    
+    Escribir "La cantidad de notas aprobadas son: ",aprobadas;
+    Escribir "La cantidad de notas reprobadas son: ",reprobadas;
+    
+FinAlgoritmo

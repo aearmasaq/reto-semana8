@@ -1,0 +1,21 @@
+Algoritmo ejercicio_2
+	definir nota1, nota2, nota3, nota4, promedio como real 
+	
+	Escribir "Ingrese la nota 1 del alumno"
+	leer nota1
+	
+	Escribir "Ingrese la nota 2 del alumno"
+	leer nota2
+	
+	Escribir "Ingrese la nota 3 del alumno"
+	leer nota3
+	
+	Escribir "Ingrese la nota 4 del alumno"
+	leer nota4
+	
+	//hallando promedio 
+	
+	promedio = (nota1+nota2+nota3+nota4)/4
+	
+	Escribir "El promedio de los 4 examenes es: ", promedio 
+FinAlgoritmo

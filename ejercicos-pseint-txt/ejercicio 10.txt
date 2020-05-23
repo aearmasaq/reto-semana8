@@ -1,0 +1,45 @@
+Algoritmo Ejemplo_10
+	Definir num1,num2,num3, menor_num como Real;
+	definir nombre,nombre1, nombre2, nombre3 como caracter
+	num1<-0;
+	num2<-0;
+	num3<-0;
+	
+	
+	menor_num<-0;
+	
+	Escribir "Ingrese su edad: ";
+	Leer num1;
+	escribir "Ingrese su nombre: "
+	Leer nombre1
+	
+	Escribir "Ingrese su edad: ";
+	Leer num2;
+	escribir "Ingrese su nombre: "
+	leer nombre2
+	
+	Escribir "Ingrese su edad: ";
+	Leer num3;
+	escribir "Ingrese su nombre: "
+	leer nombre3
+	
+	
+	
+	Si num1<num2 y num1<num3 Entonces
+		menor_num<-num1;
+		nombre = nombre1;
+		
+	FinSi
+	Si num2<num1 y num2<num3 Entonces
+		menor_num<-num2;
+		nombre = nombre2;
+	FinSi
+	Si num3<num1 y num3<num2 Entonces
+		menor_num<-num3;
+		nombre = nombre3;
+	FinSi
+	
+	
+	Escribir "La edad de la persona menor es de ",menor_num, " años y su nombre es: ", nombre
+	
+FinAlgoritmo

@@ -1,0 +1,31 @@
+Algoritmo ejercicio_11
+	
+	definir anti_trab, bono Como Real
+	
+	Escribir "Ingrese año de antiguedad"
+	leer anti_trab
+	
+	si (anti_trab == 1) entonces 
+		bono = 100;
+	FinSi
+	
+	si (anti_trab == 2) entonces 
+		bono = 200;
+	FinSi
+	si (anti_trab == 3) entonces 
+		bono = 300;
+	FinSi
+	si (anti_trab == 4) entonces 
+		bono = 400;
+	FinSi
+	si (anti_trab == 5) entonces 
+		bono = 500;
+	FinSi
+	
+	si (anti_trab > 5) entonces 
+		bono = 1000;
+	FinSi
+	
+	Escribir "Tu bono a recibir por ",anti_trab, " años", " es de $", bono
+	
+FinAlgoritmo

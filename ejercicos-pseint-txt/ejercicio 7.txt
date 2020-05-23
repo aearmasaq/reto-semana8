@@ -1,0 +1,9 @@
+Algoritmo Ejercicio_07
+	definir metros,conPulg Como Real
+	Escribir  "Ingreses los metros 	que deseas convertir a pulgadas"
+	leer metros
+	
+	conPulg = metros * 39.3701
+	
+	Escribir metros " metro equivale a ",conPulg, " pulgadas"
+FinAlgoritmo

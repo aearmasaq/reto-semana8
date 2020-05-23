@@ -1,0 +1,14 @@
+Algoritmo ejercicio_08
+	
+	definir soles, dolar, soles_dolar como real
+	
+	Escribir "Ingrese la cantidad de dinero en soles"
+	leer soles
+	
+	
+	soles_dolar = soles / 3.40 //tipo de cambio al dia 23/05/2020
+	Escribir  "Con S/",soles, " puedes adquirir $", soles_dolar
+	
+
+	
+FinAlgoritmo
